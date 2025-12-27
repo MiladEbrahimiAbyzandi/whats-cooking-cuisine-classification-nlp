@@ -64,8 +64,7 @@ Result: **no meaningful improvement** for either logistic regression or the neur
 | TF–IDF + Logistic Regression | Ingredient-level (`soy_sauce`) | 0.7791 | 0.7874 |
 | Neural Net (Embedding + GlobalAvgPool) | Ingredient-level (`soy_sauce`) | 0.7742 | 0.7754 |
 
-**Final model:** **TF–IDF + Logistic Regression (word-level)** — selected for best generalization and Kaggle score. fileciteturn1file1L24-L30
-
+**Final model:** **TF–IDF + Logistic Regression (word-level)** — selected for best generalization and Kaggle score.
 ---
 
 ## Figures (generated in notebook)
