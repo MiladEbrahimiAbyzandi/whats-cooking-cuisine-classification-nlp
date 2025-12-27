@@ -17,7 +17,7 @@ This project tackles Kaggle’s **What’s Cooking?** competition: predict a rec
 
 ## Dataset
 - **Source:** Kaggle “What’s Cooking?” (recipes with ingredient lists)
-- **Size:** 39,774 recipes, 20 cuisines; ~10 ingredients per recipe on average fileciteturn1file0L17-L19  
+- **Size:** 39,774 recipes, 20 cuisines; ~10 ingredients per recipe on average 
 - **Notes from EDA:** moderate class imbalance; word clouds show common ingredients (e.g., salt) vs cuisine-specific signals 
 
 
@@ -34,7 +34,7 @@ This project tackles Kaggle’s **What’s Cooking?** competition: predict a rec
 
 **Modeling**
 - Multinomial logistic regression with **L2 regularization** to reduce overfitting on sparse, rare features 
-- Hyperparameter tuning via CV over **C ∈ {1, 3, 5, 7, 10}** fileciteturn1file2L4-L6
+- Hyperparameter tuning via CV over **C ∈ {1, 3, 5, 7, 10}**
 - Tested `class_weight="balanced"`; it reduced validation accuracy by ~1 point, so the final model uses default weighting 
 
 ### 2) Neural Baseline: Learned Embeddings + Global Average Pooling
